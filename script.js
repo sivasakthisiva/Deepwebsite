@@ -3,7 +3,7 @@
             {
                 id: 1,
                 title: "Jailer",
-                poster: "jailer.wbmp",
+                poster: "https://tamilrush.netlify.app/jailer.wbmp",
                 rating: 8.5,
                 downloads: 125000,
                 language: "Tamil",
