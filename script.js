@@ -3,7 +3,7 @@
             {
                 id: 1,
                 title: "Jailer",
-                poster: "https://tamilrush.free.nf/jailer.wbmp",
+                poster: "jailer.wbmp",
                 rating: 8.5,
                 downloads: 125000,
                 language: "Tamil",
