@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TamilRush - Latest Tamil Movies</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 fill=%22%23ff4500%22>TR</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <!-- Home Page Content -->
+    <div id="home-page">
+        <header>
+            <div class="search-container">
+                <input type="text" id="search-bar" placeholder="Search movies...">
+                <button class="glow-button">Search</button>
+            </div>
+        </header>
+
+        <main>
+            <h1 class="logo" onclick="showPage('home')">TamilRush</h1>
+            
+            <section class="movie-section">
+                <h2>New Releases</h2>
+                <div class="movie-grid" id="new-releases">
+                    <!-- Movie cards will be inserted here by JavaScript -->
+                </div>
+            </section>
+
+            <section class="movie-section">
+                <h2>Popular Movies</h2>
+                <div class="movie-grid" id="popular-movies">
+                    <!-- Movie cards will be inserted here by JavaScript -->
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2023 TamilRush. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Download Page Content -->
+    <div id="download-page" style="display: none;">
+        <header>
+            <h1 class="logo" onclick="showPage('home')">TamilRush</h1>
+        </header>
+
+        <main>
+            <div class="download-container">
+                <!-- Movie details will be inserted here by JavaScript -->
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2023 TamilRush. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+
+    
+</body>
+</html>
